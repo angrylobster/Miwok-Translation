@@ -26,6 +26,8 @@ public class ColorsActivity extends AppCompatActivity {
 
         WordAdapter wordAdapter = new WordAdapter(this, colors);
 
+        //test comment
+
         ListView listView = (ListView) findViewById(R.id.list);
 //        GridView gridView = (GridView) findViewById(R.id.gridview);
         listView.setAdapter(wordAdapter);
